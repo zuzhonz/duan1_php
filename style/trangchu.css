@@ -1,0 +1,125 @@
+main{
+    max-width: 100%;
+    font-weight: bold;
+}
+main .banner{
+    width: 100%;
+   text-align: center;
+   margin-top: 0;
+}
+main .banner img{
+    width: 100%;
+    height: 600px;
+}
+.div_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div_1 .line{
+background-color: rgb(112, 112, 112);
+flex: 1;
+margin: 0 5%;
+border-radius: 10px;
+}
+.div_1 .but {
+height: 60px;
+border-bottom: solid 4px rgb(119, 119, 119) ;
+border-top: solid 4px rgb(119, 119, 119) ;
+border-left: solid 1px rgb(119, 119, 119) ;
+border-right: solid 1px rgb(119, 119, 119) ;
+border-radius:13px ;
+flex: 3;
+}
+.div_1 .but {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5% 0 ;
+}
+.div_1 .but a{
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+main .div_2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+main .div_2 .combo{
+    text-decoration: none;
+}
+main .div_2 .combo {
+    max-width: 30%;
+}
+main .div_2 .combo .img_back a img{
+    width:100%;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 1%;
+}
+ main hr{
+    border: 6px solid rgb(112, 112, 112);
+    width: 80%;
+    margin: 3% auto;
+    border-radius:10px ;
+}
+main .div_3 {
+    text-align: center;
+}
+main .div_3 .dich_vu_noi_bat {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .div_3 .dich_vu_noi_bat .ten_dich_vu_noi_bat {
+    border: solid 1px black;
+    width: 160px;
+    height: 160px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+    
+}
+main .div_3 .dich_vu_noi_bat .ten_dich_vu_noi_bat a {
+text-decoration: none;
+color: black;
+}
+main .div_4 {
+text-align: center;
+}
+main .div_4 .blog_thong_tin{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+main .div_4 .blog_thong_tin .thong_tin {
+width: 30%;
+}
+main .div_4 .blog_thong_tin .thong_tin img{
+width: 100%;
+height: 70%;
+}
+main .div_5 {
+    text-align: center;
+    }
+main .div_5 .kieutoc_thong_tin{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    }
+    main .div_5 .kieutoc_thong_tin .thong_tin {
+    width: 19%;
+    }
+    main .div_5 .kieutoc_thong_tin .thong_tin img{
+    width: 100%;
+    height: 90%;
+    }
+    h3{
+         text-align: left;
+         margin: 20px;
+    }

@@ -1,0 +1,43 @@
+.content{
+background-color: #F3F3F3;
+width: 98%;
+margin: 0 auto;
+padding: 10px;
+}
+
+.content .tieu_de h2{
+     text-align: center;
+}
+.thong_tin{
+    text-align: center;
+    font-size: 18px;
+}
+.thong_tin .form-tt {
+    display: flex;
+    justify-content: space-around;
+}
+.thong_tin .form-tt .tt{
+    flex: 1;
+}
+.in_tt{
+    border: solid 1px black;
+    box-shadow: 1px 1px 1px 1px darkgrey;
+}
+.thong_tin .dich_vu{
+    display: flex;
+    justify-content: space-around;
+}
+.thong_tin .dich_vu .cac_dv{
+    flex: 1;
+}
+.thong_tin .dich_vu .noi_dung_dv {
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+    border: solid 1px black;
+}
+.thong_tin .thanh_toan h3{
+    text-align: left;
+}.thong_tin .thanh_tien h3{
+    text-align: left;
+}
